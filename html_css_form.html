@@ -8,19 +8,19 @@
   <form>
     <label>
         Имя*
-        <input type="text" placeholder="Имя"> <br>
+        <input type="text" placeholder="Имя" name="name">  <br>
     </label>
     <label>
           Email
-          <input type="text" placeholder="ivan@domain.ru"> <br>
+          <input type="text" placeholder="ivan@domain.ru" name="email"> <br>
     </label>
     <label>
           Мобильный телефон *
-          <input type="text" placeholder="+7 (921) 111-45-55"> <br>
+          <input type="text" placeholder="+7 (921) 111-45-55" name="number"> <br>
     </label>
     <label>
           Дата рождения
-          <input type="text" placeholder="01.08.1977"> <br>
+          <input type="text" placeholder="01.08.1977" name="birth_date"> <br>
     </label>
       <select>
         <option selected class="selected"> Выберите категорию </option>
@@ -29,11 +29,14 @@
         <option>3</option>
         <option>4</option>
         <option>5</option>
-    </select>
+    </select> <br>
     <label>
         Сообщение
-        <input type="text" placeholder="Введите ваше сообщение..."> <br>
+        <textarea name="description" rows="5" placeholder="Введите ваше сообщение..."> </textarea><br>
     </label>
+    <input type="checkbox" id="agreement" name="agreement" value="agreement">
+    <label for="agreement">Заполняя форму, я <a href = "http://www.yandex.ru">принимаю условия передачи информации.</a></label> <br>
+    <input type="submit" value="Отправить заявку">
   </form>
 </body>
 </html>
