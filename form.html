@@ -8,16 +8,16 @@
     <title>HTML форма</title>
 </head>
 <body>
-    <form method="post" action="form.html">
+    <form>
         <h1>Регистрация</h1>
         <input type="text" placeholder="ФИО"> <br>
         <input type="number" placeholder="+7 999 999 99 99"> <br>
         <input type="date" placeholder="дата рождения"> <br>
-        <input type="radio" id="male" name="gender" value="male">
+        <input type="radio" checked="checked" id="male" name="gender" value="male">
         <label for="male">мужчина</label>
         <input type="radio" id="female" name="gender" value="female">
         <label for="female">женщина</label> <br>
-        <input type="checkbox" id="agreement" name="agreement" value="agreement">
+        <input type="checkbox" checked="checked" id="agreement" name="agreement" value="agreement">
         <label for="agreement">Согласие на обработку</label> <br>
         <input type="submit" value="Отправить">
     </form>
