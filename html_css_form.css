@@ -23,6 +23,8 @@ h1 {
     color: #170F49;
 }
 .form-input,select,textarea {
+    display: block;
+    margin-bottom: 32px;
     box-sizing: border-box;
     border: 1px solid rgba(241, 242, 249, 1);
     border-radius: 16px;
