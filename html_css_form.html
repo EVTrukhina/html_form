@@ -11,23 +11,23 @@
 
 <body>
    <h1 class = ”title”> Заполните форму, чтобы оставить отзыв <h1/>
-    <p class="sub-text">Lorem ipsum dolor sit amet consectetur adipiscing elit posuere vel
+   <p class="sub-text">Lorem ipsum dolor sit amet consectetur adipiscing elit posuere vel
        venenatis eu sit massa volutpat massa rhoncus odio eugiat tellus, elit massa sed.</p>
     <form action="/submit" method="post">
         <div class="form-group">
-            <label for="name">Имя*:</label>
+            <label for="name" class="form-label">Имя*:</label>
             <input type="text" id="name" name="name" placeholder="Имя" value=”” required/>
         </div>
         <div class="form-group">
-            <label for="email">Email:</label>
+            <label for="email" class="form-label">Email:</label>
             <input type="email" id="email" name="email" placeholder="ivan.domain.ru" value=””/> <br/>
         </div>
         <div class="form-group">
-            <label for="tel">Мобильный телефон*:</label>
+            <label for="tel" class="form-label">Мобильный телефон*:</label>
             <input type="tel" id="tel" name="tel" placeholder="+7 (921) 111-45-55" value=”” required/>
         </div>
         <div class="form-group">
-            <label for="date">Дата рождения:</label>
+            <label for="date" class="form-label">Дата рождения:</label>
             <input type="date" id="date" name="date" placeholder="01.08.1977" value=””/> <br/>
         </div>
         <div class="form-group">
@@ -40,7 +40,7 @@
             </select>
         </div>
         <div class="form-group">
-            <label for="message">Сообщение</label>
+            <label for="message" class="form-label">Сообщение</label>
             <textarea id="message" cols=”40” rows=”10” name="textarea" placeholder="Введите ваше сообщение..."></textarea>
         </div>
         <div class="form-check">
