@@ -14,38 +14,42 @@
     <p class="sub-text">Lorem ipsum dolor sit amet consectetur adipiscing elit posuere vel
        venenatis eu sit massa volutpat massa rhoncus odio eugiat tellus, elit massa sed.</p>
     <form action="/submit" method="post">
-        div class container
-
-        <label for="name">Имя*:</label>
-        <input type="text" id="name" name="name" placeholder="Имя" value=”” required/>
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" placeholder="ivan.domain.ru" value=””/> <br/>
-
-        <label for="tel">Мобильный телефон*:</label>
-        <input type="tel" id="tel" name="tel" placeholder="+7 (921) 111-45-55" value=”” required/>
-
-        <label for="date">Дата рождения:</label>
-        <input type="date" id="date" name="date" placeholder="01.08.1977" value=””/> <br/>
-
-        <select name="category" id="category-select">
+        <div class="form-group">
+            <label for="name">Имя*:</label>
+            <input type="text" id="name" name="name" placeholder="Имя" value=”” required/>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="ivan.domain.ru" value=””/> <br/>
+        </div>
+        <div class="form-group">
+            <label for="tel">Мобильный телефон*:</label>
+            <input type="tel" id="tel" name="tel" placeholder="+7 (921) 111-45-55" value=”” required/>
+        </div>
+        <div class="form-group">
+            <label for="date">Дата рождения:</label>
+            <input type="date" id="date" name="date" placeholder="01.08.1977" value=””/> <br/>
+        </div>
+        <div class="form-group">
+            <select name="category" id="category-select">
             <option value="">-- Выберите категорию --</option>
             <option value="01">Текст 1</option>
             <option value="02">Текст 2</option>
             <option value="03">Текст 3</option>
             <option value="04">Текст 4</option>
-        </select>
-        <br/>
-
-        <label for="message">Сообщение</label>
-        <textarea id="message" cols=”40” rows=”10” name="textarea" placeholder="Введите ваше сообщение*"></textarea>
-
-        <label>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="message">Сообщение</label>
+            <textarea id="message" cols=”40” rows=”10” name="textarea" placeholder="Введите ваше сообщение..."></textarea>
+        </div>
+        <div class="form-check">
+            <label>
             <input type="checkbox" name="terms">
             Заполняя форму, я принимаю <a href="/terms">условия передачи информации.</a>
-        </label>
+            </label>
+        </div>
         <input type="submit" name="submit" value=”Отправить заявку”/> <br/>
-
     </form>
 </body>
 </html>
