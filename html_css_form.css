@@ -1,14 +1,58 @@
-. title {
-    font-family:roboto;
+body {
+    font-family: Arial, Helvetica,sans-serif;
+    background-color:#FFFFFF;
+}
+
+
+.title {
+    font-family:Arial, Helvetica,sans-serif;
     font-size:48px;
     font-style:normal;
     font-weight:600;
     color: #170F49;
+    text-align: left;
 }
-. sub-text {
-    font-family:roboto;
+.sub-text {
+    font-family:Arial, Helvetica,sans-serif;
     font-size:18px;
     font-style:normal;
     font-weight:400;
     color: #6F6C90;
+    text-align: left;
+}
+
+form {
+    max-width: 640px; /* Ограничение формы по ширине */
+    margin: 0 auto; /* Выравнивание формы по центру */
+    padding: 48px; /* Внутренние отступы */
+    border: 1px solid #F1F2F9; /* Обводка */
+    border-radius: 24px; /* Скругление */
+}
+
+.form-label {
+    display: block;      /* Каждая подпись на отдельной строке */
+    color: #170F49;     /* Тёмно-синий цвет */
+    font-weight: 600;   /* Полужирное начертание (medium bold) */
+    margin-bottom: 8px; /* Отступ 8px между подписью и полем ввода */
+    font-size: 16px;    /* Чуть меньший размер чем основной текст */
+}
+
+input, textarea {
+    width: 100%; /* Ширина полей */
+    padding: 8px; /* Внутренние отступы */
+    margin: 0 0 10px; /* Отступы между полями */
+    border: 1px solid #F1F2F9; /* Обводка */
+    border-radius: 16px; /* Скругление */
+}
+textarea {
+    height: 169px; /* Высота поля */
+    resize: none; /* Запрет на изменение ширины и высоты пользователем */
+}
+
+.row-group {
+    display: flex;          /* Включаем flexbox */
+    gap: 24px;             /* Расстояние между полями */
+    margin-bottom: 32x;   /* Отступ снизу */
+    width: 50%;
+
 }
