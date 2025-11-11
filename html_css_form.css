@@ -1,9 +1,10 @@
+/* === ОСНОВНЫЕ СТИЛИ === */
 body {
     font-family: Arial, Helvetica,sans-serif;
     background-color:#FFFFFF;
 }
 
-
+/* === ЗАГОЛОВОК === */
 .title {
     font-family:Arial, Helvetica,sans-serif;
     font-size:48px;
@@ -12,6 +13,8 @@ body {
     color: #170F49;
     text-align: left;
 }
+
+/* === ПОДЗАГОЛОВОК === */
 .sub-text {
     font-family:Arial, Helvetica,sans-serif;
     font-size:18px;
@@ -21,6 +24,7 @@ body {
     text-align: left;
 }
 
+/* === ПОДЗАГОЛОВОК === */
 form {
     max-width: 640px; /* Ограничение формы по ширине */
     margin: 0 auto; /* Выравнивание формы по центру */
@@ -28,7 +32,13 @@ form {
     border: 1px solid #F1F2F9; /* Обводка */
     border-radius: 24px; /* Скругление */
 }
+/* === ГРУППЫ ПОЛЕЙ === */
+.form-group {
+    margin-bottom: 32px;
+    flex-basis: 50%;
+}
 
+/* === МЕТКИ (LABELS) === */
 .form-label {
     display: block;      /* Каждая подпись на отдельной строке */
     color: #170F49;     /* Тёмно-синий цвет */
@@ -37,22 +47,25 @@ form {
     font-size: 16px;    /* Чуть меньший размер чем основной текст */
 }
 
+/* === ПОЛЯ ВВОДА === */
 input, textarea {
     width: 100%; /* Ширина полей */
     padding: 8px; /* Внутренние отступы */
     margin: 0 0 10px; /* Отступы между полями */
     border: 1px solid #F1F2F9; /* Обводка */
     border-radius: 16px; /* Скругление */
+    box-sizing: border-box; /* Без этого padding сломает выравнивание */
 }
+
 textarea {
     height: 169px; /* Высота поля */
     resize: none; /* Запрет на изменение ширины и высоты пользователем */
 }
 
+/* === ПОЛЯ В ОДНУ СТРОКУ === */
 .row-group {
-    display: flex;          /* Включаем flexbox */
-    gap: 24px;             /* Расстояние между полями */
-    margin-bottom: 32x;   /* Отступ снизу */
-    width: 50%;
-
+    display: flex;                              /* Flexbox для расположения в строку */
+    gap: 24px;                                  /* Расстояние между элементами 24px */
+    margin-bottom: 24px;                        /* Отступ снизу 24px */
+    justify-content: space-between;
 }
