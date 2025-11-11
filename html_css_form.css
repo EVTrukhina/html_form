@@ -24,7 +24,7 @@ body {
     text-align: left;
 }
 
-/* === ПОДЗАГОЛОВОК === */
+/* === Форма === */
 form {
     max-width: 640px; /* Ограничение формы по ширине */
     margin: 0 auto; /* Выравнивание формы по центру */
@@ -50,7 +50,7 @@ form {
 /* === ПОЛЯ ВВОДА === */
 input, textarea {
     width: 100%; /* Ширина полей */
-    padding: 8px; /* Внутренние отступы */
+    padding: 8px 16px 8px 16px;   /* Внутренние отступы */
     margin: 0 0 10px; /* Отступы между полями */
     border: 1px solid #F1F2F9; /* Обводка */
     border-radius: 16px; /* Скругление */
@@ -69,3 +69,23 @@ textarea {
     margin-bottom: 24px;                        /* Отступ снизу 24px */
     justify-content: space-between;
 }
+
+/* ===  Выпадающий список == */
+.select {
+    appearance: none;                   /* Убираем браузерную стрелку*/
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    padding: 16px 20px 16px 20px;      /* Отступы от рамки к тексту*/
+    outline: none;                     /* Убираем браузерную обводку*/
+    cursor: pointer;
+}
+.select-wrapper {
+
+}
+
+
+
+

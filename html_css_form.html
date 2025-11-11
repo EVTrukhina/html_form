@@ -35,15 +35,17 @@
                 <input type="date" id="date" name="date" placeholder="01.08.1977" value=””/> <br/>
             </div>
         </div>
+        <!-- Выпадающий список-->
         <div class="form-group">
-            <select name="category" id="category-select">
+            <div select-wrapper>
+                <select name="category" id="category-select">
                 <option value="">-- Выберите категорию --</option>
                 <option value="01">Текст 1</option>
                 <option value="02">Текст 2</option>
                 <option value="03">Текст 3</option>
                 <option value="04">Текст 4</option>
-            </select>
-        </div>
+                </select>
+            </div>
         <div class="form-group">
             <label for="message" class="form-label">Сообщение</label>
             <textarea id="message" cols=”40” rows=”10” name="textarea"
