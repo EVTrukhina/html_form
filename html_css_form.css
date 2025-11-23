@@ -71,17 +71,7 @@ textarea {
 }
 
 /* ===  Выпадающий список == */
-.select {
-    appearance: none;                   /* Убираем браузерную стрелку*/
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    border: none;
-    background-color: transparent;
-    outline: none;
-    padding: 16px 20px 16px 20px;      /* Отступы от рамки к тексту*/
-    outline: none;                     /* Убираем браузерную обводку*/
-    cursor: pointer;
-}
+
 
 
 
