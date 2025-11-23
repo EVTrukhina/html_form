@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form_d</title>
+    <link rel="stylesheet" href="form_d.css">
+</head>
+<body>
+<h2>Форма регистрации</h2>
+<form>
+ <div class="container">
+     <h1>Регистрация</h1>
+     <p>Пожалуйста, заполните эту форму, чтобы создать учетную запись.</p>
+     <hr/>
+     <label for ="email">Email*</label>
+     <input type="email" id="email" name="email" placeholder="ivan.domain.ru" required/>
+     <label for ="psw">Пароль</label>
+     <input type="password" id="psw" name="password" placeholder="Введите пароль" required/>
+     <label for ="psw-repeat">Повторите пароль</label>
+     <input type="password" id="psw" name="password" placeholder="Повторите пароль" required/>
+     <div class="form-check">
+         <input type="checkbox" id="terms" name="terms" checked="checked">
+         <label for="terms">Заполняя форму, я принимаю <a href="/terms">условия передачи информации</label>
+     </div>
+
+     <div class="btn-group">
+         <button type="submit" class="singup-btn">Зарегистрироваться</button>
+         <button type="submit" class="singin-btn">Войти</button>
+     </div>
+ </div>
+</form>
+</body>
+</html>

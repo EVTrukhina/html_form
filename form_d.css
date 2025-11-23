@@ -1,0 +1,68 @@
+/* === ОСНОВНЫЕ СТИЛИ === */
+body {
+    font-family: Arial, Helvetica,sans-serif;
+    background-color:#FFFFFF;
+    * {box-sizing: border-box;}
+}
+
+
+form {
+    max-width: 640px; /* Ограничение формы по ширине */
+    margin: 0 auto; /* Выравнивание формы по центру */
+    padding: 48px; /* Внутренние отступы */
+    border: 1px solid #F1F2F9; /* Обводка */
+    border-radius: 24px; /* Скругление */
+
+}
+
+/* Поля ввода полной ширины */
+input[type=text], input[type=password], input[type=email]{
+    width: 100%;
+    padding:16px 16px 16px 16px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    margin-bottom: 24px; /* Отступ снизу инпута */
+}
+
+/* Состояния */
+input[type=text]:focus, input[type=password]:focus, input[type=email]focus, {
+    background-color: #EEEEEE;
+    outline: none;
+}
+
+
+/*Отступ м/у лейблом и инпутом*/
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+
+/* Установите стиль для всех кнопок */
+
+button {
+    background-color: #4A3AFF;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+button:hover {
+    background-color: #1306A7;
+}
+
+
+
+.form-check label {
+    display: inline;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+
