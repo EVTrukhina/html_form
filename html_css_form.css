@@ -73,6 +73,12 @@ textarea {
 /* ===  Выпадающий список == */
 
 
+/* ===  Согласие == */
+
+.form-check {
+    display: flex;
+    align-content:left;
+}
 
 
 
