@@ -83,20 +83,7 @@ textarea {
     cursor: pointer;
 }
 
-.select-wrapper::after {
-    content: "";
-    position: absolute;
-    right: 16px;
-    top:50%;
-    transform: translateY(-50%);
-    margin-top: -2px;
-    pointer-events: none;
 
-    display: block;
-    width: 16px;
-    height: 16px;
-    background-color: brown;
 
-}
 
 
